@@ -87,7 +87,7 @@ Este documento detalha a estrutura completa do novo site vendedor para a planilh
   - **Destaque**: "Garantia de 30 dias - Satisfação ou seu dinheiro de volta"
   - **Bônus**: "E-book: 10 Estratégias para Economizar R$500 por Mês"
   - Opções de pagamento:
-    - PIX (com instruções claras)
+    - PIX (00020126880014br.gov.bcb.pix0136a5b7ad4f-5918-4fc1-aa7a-a631afa24c260226Planilha chave financeira 520400005303986540550.005802BR5924Miguel Cesar Fernandes F6008Brasilia62230519daqr2612692379253246304CA3B)
     - Cartão de Crédito (link Mercado Pago)
   - **Instruções**: "Após o pagamento, envie o comprovante pelo WhatsApp (61) 99818-2934 para receber a planilha imediatamente"
   - **CTA Final**: "QUERO TRANSFORMAR MINHAS FINANÇAS AGORA" (botão grande verde)
@@ -100,11 +100,11 @@ Este documento detalha a estrutura completa do novo site vendedor para a planilh
   - "Como recebo a planilha após a compra?"
   - "Posso usar em mais de um computador?"
   - "A planilha funciona no Excel Online ou Google Sheets?"
-  - "Como funciona a garantia de 30 dias?"
+  - "Como funciona a garantia de 7 dias?"
 
 ### 10. Footer
 - Informações de contato:
-  - E-mail: miguelfernandes1004@gmail.com
+  - E-mail: contatochavefinanceira@gmail.com
   - WhatsApp: (61) 99818-2934
 - Links para políticas (a serem criadas):
   - Política de Privacidade
