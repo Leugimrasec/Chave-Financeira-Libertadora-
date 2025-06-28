@@ -1,35 +1,466 @@
-<h2>Complete seus dados para finalizar a compra:</h2>
-<form action="https://formspree.io/f/xqablybd" method="POST">
-  <label>Nome:</label><br>
-  <input type="text" name="nome" required><br><br>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chave Financeira Libertadora - Transforme suas finanças</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="mobile_optimization.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>🔑 Chave Financeira Libertadora</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#beneficios">Benefícios</a></li>
+                    <li><a href="#como-funciona">Como Funciona</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#" class="btn-nav btn-trigger-purchase">Comprar</a></li>
+                </ul>
+                <div class="contact-info">
+                    <a href="https://wa.me/5561999226352" target="_blank" class="contact-link">
+                        <i class="fab fa-whatsapp"></i> (61) 99922-6352
+                    </a>
+                    <a href="mailto:contatochavefinanceira@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i> contatochavefinanceira@gmail.com
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-  <label>Email:</label><br>
-  <input type="email" name="email" required><br><br>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transforme Sua Vida Financeira</h1>
+                <p>A planilha completa que vai organizar suas finanças, controlar seus gastos e te ajudar a alcançar seus objetivos financeiros.</p>
+                <div class="hero-features">
+                    <div class="feature">
+                        <i class="fas fa-sync-alt"></i>
+                        <span>Atualização Automática</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-chart-pie"></i>
+                        <span>Gráficos Visuais</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Funciona no Celular</span>
+                    </div>
+                </div>
+                <a href="#comprar" class="btn-primary btn-hero">🔑 ACESSAR MINHA LIBERDADE FINANCEIRA</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/planilha_nova_visualizacao.jpeg" alt="Visualização da Chave Financeira Libertadora">
+            </div>
+        </div>
+    </section>
 
-  <label>CPF:</label><br>
-  <input type="text" name="cpf" required pattern="\d{11}" title="Digite 11 números do CPF"><br><br>
+    <section class="problema" id="problema">
+        <div class="container">
+            <h2>Você Está Cansado de...</h2>
+            <div class="problema-grid">
+                <div class="problema-item">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h3>Contas em Atraso</h3>
+                    <p>Perder o controle dos vencimentos e pagar juros desnecessários por esquecimento.</p>
+                </div>
+                <div class="problema-item">
+                    <i class="fas fa-question-circle"></i>
+                    <h3>Não Saber Para Onde Vai o Dinheiro</h3>
+                    <p>Chegar no final do mês sem entender onde gastou todo o seu salário.</p>
+                </div>
+                <div class="problema-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Falta de Planejamento</h3>
+                    <p>Viver sem metas financeiras claras e não conseguir poupar para seus sonhos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <label>Telefone:</label><br>
-  <input type="tel" name="telefone" required><br><br>
+    <section class="solucao" id="solucao">
+        <div class="container">
+            <h2>A Solução Está Aqui!</h2>
+            <div class="solucao-content">
+                <div class="solucao-text">
+                    <h3>Nossa Planilha de Controle Financeiro</h3>
+                    <p>Uma ferramenta completa e intuitiva que automatiza o controle das suas finanças, te dando clareza total sobre sua situação financeira.</p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <div>
+                                <strong>Controle Automático de Status:</strong> Atualiza automaticamente quando as contas vencem ou são pagas
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <div>
+                                <strong>Categorização Inteligente:</strong> Organize gastos por categoria e veja onde está gastando mais
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <div>
+                                <strong>Gráficos Visuais:</strong> Visualize suas finanças com gráficos de pizza e barras
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check"></i>
+                            <div>
+                                <strong>Controle de Investimentos:</strong> Acompanhe seus investimentos e reserva de emergência
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="solucao-image">
+                    <img src="assets/planilha_nova_visualizacao.jpeg" alt="Planilha Financeira">
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <button type="submit">Enviar Dados</button>
-</form>
+    <section class="como-funciona" id="como-funciona">
+        <div class="container">
+            <h2>Como Funciona</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <h3>Baixe a Planilha</h3>
+                    <p>Receba o arquivo Excel por email após a compra</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <h3>Preencha Seus Dados</h3>
+                    <p>Adicione suas receitas, despesas e investimentos</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Veja a Mágica</h3>
+                    <p>A planilha atualiza automaticamente status e gráficos</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Alcance Seus Objetivos</h3>
+                    <p>Tenha controle total e realize seus sonhos financeiros</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<hr>
+    <section class="beneficios" id="beneficios">
+        <div class="container">
+            <h2>Por Que Escolher Nossa Planilha?</h2>
+            <div class="beneficios-grid">
+                <div class="beneficio">
+                    <div class="beneficio-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Automação Inteligente</h3>
+                    <p>Status das contas atualiza automaticamente. Nunca mais esqueça de uma conta!</p>
+                </div>
+                <div class="beneficio">
+                    <div class="beneficio-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>Visualização Clara</h3>
+                    <p>Gráficos coloridos mostram exatamente para onde vai seu dinheiro.</p>
+                </div>
+                <div class="beneficio">
+                    <div class="beneficio-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Funciona no Celular</h3>
+                    <p>Acesse e atualize suas finanças de qualquer lugar, a qualquer hora.</p>
+                </div>
+                <div class="beneficio">
+                    <div class="beneficio-icon">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3>Controle de Investimentos</h3>
+                    <p>Acompanhe seus investimentos e metas de poupança em um só lugar.</p>
+                </div>
+                <div class="beneficio">
+                    <div class="beneficio-icon">
+                        <i class="fas fa-check-square"></i>
+                    </div>
+                    <h3>Organização Mensal</h3>
+                    <p>Cada mês tem sua própria aba para melhor organização temporal.</p>
+                </div>
+                <div class="beneficio">
+                    <div class="beneficio-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Garantia de 7 Dias</h3>
+                    <p>Suporte completo por 7 dias. Sua satisfação é garantida!</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<h2>Pague agora sua compra:</h2>
+    <section class="depoimentos" id="depoimentos">
+        <div class="container">
+            <h2>O Que Nossos Clientes Dizem</h2>
+            <div class="depoimentos-grid">
+                <div class="depoimento">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Finalmente consegui organizar minhas finanças! A planilha é muito fácil de usar e os gráficos me ajudam a entender onde estou gastando mais."</p>
+                    <div class="depoimento-autor">
+                        <strong>Maria Silva</strong>
+                        <span>Professora</span>
+                    </div>
+                </div>
+                <div class="depoimento">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Nunca mais esqueci de pagar uma conta! O sistema de atualização automática é perfeito. Recomendo para todos."</p>
+                    <div class="depoimento-autor">
+                        <strong>João Santos</strong>
+                        <span>Empresário</span>
+                    </div>
+                </div>
+                <div class="depoimento">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Em 3 meses consegui economizar R$ 500 por mês só organizando melhor meus gastos. Valeu cada centavo!"</p>
+                    <div class="depoimento-autor">
+                        <strong>Ana Costa</strong>
+                        <span>Enfermeira</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<p><strong>💳 Cartão de Crédito:</strong></p>
-<a href="https://pag.getnet.com.br/N-p06-imYx" target="_blank" rel="noopener noreferrer">
-  <button>Pagar com Cartão</button>
-</a>
+    <section class="cta-final">
+        <div class="container">
+            <h2>Transforme Sua Vida Financeira Hoje!</h2>
+            <p>Não deixe para amanhã o que pode mudar sua vida hoje. Milhares de pessoas já organizaram suas finanças com nossa planilha.</p>
+            
+            <div class="oferta-box">
+                <h3>Planilha Completa de Controle Financeiro</h3>
+                <div class="preco-destaque">
+                    <span class="preco">R$ 50,00</span>
+                </div>
+                <p class="preco-info">Pagamento único • Acesso vitalício</p>
+                
+                <div class="beneficios-lista">
+                    <div class="beneficio-item">
+                        <i class="fas fa-check"></i>
+                        <span>Atualização automática de status</span>
+                    </div>
+                    <div class="beneficio-item">
+                        <i class="fas fa-check"></i>
+                        <span>Gráficos visuais interativos</span>
+                    </div>
+                    <div class="beneficio-item">
+                        <i class="fas fa-check"></i>
+                        <span>Controle de investimentos</span>
+                    </div>
+                    <div class="beneficio-item">
+                        <i class="fas fa-check"></i>
+                        <span>Organização mensal</span>
+                    </div>
+                    <div class="beneficio-item">
+                        <i class="fas fa-check"></i>
+                        <span>Funciona no celular e computador</span>
+                    </div>
+                    <div class="beneficio-item">
+                        <i class="fas fa-check"></i>
+                        <span>Suporte por 30 dias</span>
+                    </div>
+                </div>
+                
+                <div class="botoes-compra">
+                    <button class="btn-comprar-agora" onclick="abrirModalCompra()">
+                        <i class="fas fa-shopping-cart"></i> COMPRAR AGORA
+                    </button>
+                    <button class="btn-ja-paguei" onclick="abrirModalJaPaguei()">
+                        <i class="fas fa-check-circle"></i> JÁ PAGUEI
+                    </button>
+                </div>
+                
+                <div class="garantia-info">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Garantia de 30 Dias</span>
+                </div>
+                
+                <div class="seguranca-info">
+                    <i class="fas fa-lock"></i>
+                    <span>Pagamento 100% seguro</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<p><strong>🔑 PIX (copie e cole no app do banco):</strong></p>
-<textarea readonly rows="4" cols="50">
-00020126780014br.gov.bcb.pix0114+55619981829340238Planilha Chave Libertadora Financeira 520400005303986540550.005802BR5924Miguel Cesar Fernandes F6008Brasilia62230519daqr2612692375097526304A88B
-</textarea>
-        }
-    </script>
+    <!-- Modal de Compra -->
+    <div id="modal-compra" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="fecharModal('modal-compra')">&times;</span>
+            <h2>Finalizar Compra</h2>
+            <form id="form-compra">
+                <div class="form-group">
+                    <label for="nome">Nome Completo*</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail*</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="whatsapp">WhatsApp*</label>
+                    <input type="tel" id="whatsapp" name="whatsapp" required placeholder="(61) 99999-9999">
+                </div>
+                <div class="form-group">
+                    <label>Forma de Pagamento*</label>
+                    <div class="payment-options">
+                        <label class="payment-option">
+                            <input type="radio" name="pagamento" value="pix" required>
+                            <span><i class="fas fa-qrcode"></i> PIX</span>
+                        </label>
+                        <label class="payment-option">
+                            <input type="radio" name="pagamento" value="cartao">
+                            <span><i class="fas fa-credit-card"></i> Cartão</span>
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn-finalizar">Finalizar Compra</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal PIX -->
+    <div id="modal-pix" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="fecharModal('modal-pix')">&times;</span>
+            <h2>Pagamento via PIX</h2>
+            <div class="pix-info">
+                <p>Copie o código PIX abaixo e cole no seu banco:</p>
+                <div class="pix-code">
+                    <textarea id="codigo-pix" readonly>00020126880014br.gov.bcb.pix0136a5b7ad4f-5918-4fc1-aa7a-a631afa24c260226Planilha chave financeira 520400005303986540550.005802BR5924Miguel Cesar Fernandes F6008Brasilia62230519daqr2612692379253246304CA3B</textarea>
+                    <button onclick="copiarPix()" class="btn-copiar">Copiar Código PIX</button>
+                </div>
+                <div class="pix-instrucoes">
+                    <h3>Como pagar:</h3>
+                    <ol>
+                        <li>Abra o app do seu banco</li>
+                        <li>Escolha a opção PIX</li>
+                        <li>Selecione "Copia e Cola"</li>
+                        <li>Cole o código copiado</li>
+                        <li>Confirme o pagamento de R$ 50,00</li>
+                        <li>Após pagar, clique em "Já Paguei" abaixo</li>
+                    </ol>
+                </div>
+                <button class="btn-ja-paguei" onclick="confirmarPagamentoPix()">
+                    <i class="fas fa-check-circle"></i> JÁ PAGUEI
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Já Paguei -->
+    <div id="modal-ja-paguei" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="fecharModal('modal-ja-paguei')">&times;</span>
+            <h2>Confirmar Pagamento</h2>
+            <div class="ja-paguei-content">
+                <p>Para confirmar seu pagamento e receber sua planilha, envie seu comprovante via WhatsApp:</p>
+                
+                <div class="whatsapp-section">
+                    <a href="https://wa.me/5561999226352?text=Olá! Acabei de fazer o pagamento da Chave Financeira Libertadora. Segue o comprovante:" 
+                       target="_blank" class="btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> Enviar Comprovante via WhatsApp
+                    </a>
+                </div>
+                
+                <div class="email-section">
+                    <p>Ou envie por e-mail:</p>
+                    <a href="mailto:contatochavefinanceira@gmail.com?subject=Comprovante de Pagamento - Chave Financeira Libertadora&body=Olá! Segue em anexo o comprovante de pagamento da Chave Financeira Libertadora." 
+                       class="btn-email">
+                        <i class="fas fa-envelope"></i> Enviar por E-mail
+                    </a>
+                </div>
+                
+                <div class="confirmacao-info">
+                    <div class="info-box">
+                        <i class="fas fa-clock"></i>
+                        <p><strong>Aguarde!</strong> Em breve você receberá sua planilha Chave Libertadora no e-mail cadastrado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Sucesso -->
+    <div id="modal-sucesso" class="modal">
+        <div class="modal-content">
+            <h2>✅ Cadastro Realizado!</h2>
+            <div class="sucesso-content">
+                <p>Seus dados foram registrados com sucesso!</p>
+                <p><strong>Aguarde!</strong> Em breve você receberá sua planilha Chave Libertadora no e-mail cadastrado.</p>
+                <button onclick="fecharModal('modal-sucesso')" class="btn-ok">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🔑 Chave Financeira Libertadora</h3>
+                    <p>Transformando vidas através da educação financeira.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p><i class="fab fa-whatsapp"></i> (61) 99922-6352</p>
+                    <p><i class="fas fa-envelope"></i> contatochavefinanceira@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Garantia</h4>
+                    <p>30 dias de garantia total</p>
+                    <p>Suporte completo incluído</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Chave Financeira Libertadora. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="site-integration-updated.js"></script>
 </body>
 </html>
 
